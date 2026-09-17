@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    min-height:100vh;
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("assets/background.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+}
+header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    padding:15px;
+    color:white;
+}
+.logo-sec img{
+    width:80px;
+    height:80px;
+}
+.title-section{
+    text-align:center;
+}
+.title-section h1{
+    font-size:32px;
+    margin-bottom:8px;
+}
+.title-section h2{
+    font-size:20px;
+    font-weight:normal;
+}
+nav{
+    background:rgba(0,64,128,0.95);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+    font-size:16px;
+
+}
+nav a:hover{
+    background:#0066cc;
+
+}
+.box{
+    width:75%;
+    min-height:400px;
+    margin:35px auto;
+    padding:30px;
+    background:rgba(255,255,255,0.75);
+    border-radius:8px;
+    box-shadow:0px 5px 20px rgba(0,0,0,0.4);
+}
+.box h2{
+    color:green;
+    font-size:25px;
+    margin-bottom:8px;
+}
+.box h3{
+    color:#004080;
+    font-size:18px;
+}
+#loginTime{
+    color:#572ca5;
+    font-weight:bold;
+    margin-top:20px;
+    font-size:16px;
+}
+#greeting{
+    color:#004080;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:12px;
+}
+.notice{
+    width:85%;
+    margin:30px auto;
+    background:#fff8dc;
+    border-left:5px solid orange;
+    padding:18px;
+}
+.notice p{
+    color:#572ca5;
+    font-weight:bold;
+}
+.notice ul{
+    margin-top:10px;
+    margin-left:20px;
+}
+.notice li{
+    color:#003399;
+    margin-bottom:5px;
+}
+footer{
+    margin-top:auto;
+    background:rgba(0,51,102,0.95);
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
